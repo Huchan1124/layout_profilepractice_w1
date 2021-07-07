@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif, Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .fz-24 {
   font-size: 24px;
 }
@@ -36,5 +52,40 @@
 
 .m-72 {
   margin: 72px;
+}
+
+.title {
+  border-bottom: 2px solid #000;
+}
+
+.profile-pic {
+  padding: 48px 0;
+}
+
+.profile-pic img {
+  display: block;
+  width: 324px;
+  height: 324px;
+}
+
+.profile h2.container {
+  border-bottom: 1px solid #000;
+}
+
+.profile span {
+  display: inline-block;
+  position: relative;
+  color: #A00404;
+  font-weight: bold;
+  bottom: 3px;
+}
+
+.profile ul {
+  padding-top: 16px;
+  margin-bottom: 72px;
+}
+
+.profile ul li {
+  margin-bottom: 24px;
 }
 /*# sourceMappingURL=style.css.map */

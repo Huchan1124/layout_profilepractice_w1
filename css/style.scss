@@ -1,7 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 $primary-color: #415165;
 $secondary-color: #FFFFFF;
 $strong-title-color:#A00404;
 $border-line-color:#96A9C4;
+$font-family-ch: 'Noto Sans TC', sans-serif;
+$font-family-eng: Roboto, sans-serif;
+
+$m-8:  8px;
+$m-14: 14px;
+$m-24: 24px;
+$m-32: 32px;
+$m-36: 36px;
+$m-48: 48px;
+$m-72: 72px;
+
+*,*::before,*::after {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: $font-family-ch, $font-family-eng;
+    line-height: 1.5;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
 
 // font-size
 .fz-24 {
@@ -25,7 +53,7 @@ $border-line-color:#96A9C4;
 }
 
 .m-24 {
-    margin: 24px;
+    margin: 24px ;
 }
 
 .m-32 {
@@ -44,3 +72,39 @@ $border-line-color:#96A9C4;
     margin: 72px;
 }
 
+// section
+.title {
+    border-bottom: 2px solid #000;
+}
+
+.profile-pic {
+    padding: 48px 0;
+    img {
+        display: block;
+        width: 324px;
+        height: 324px;
+    }
+}
+
+.profile {
+    h2.container {
+        border-bottom: 1px solid #000;
+    }
+    span {
+        display: inline-block;
+        position: relative;
+        color: $strong-title-color ;
+        font-weight: bold;
+        bottom: 3px;
+    }
+    ul {
+        padding-top: 16px;
+        margin-bottom: $m-72;
+        li {
+            margin-bottom: $m-24;
+
+        }
+    }
+
+
+}
