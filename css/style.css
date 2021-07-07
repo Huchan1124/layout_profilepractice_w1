@@ -1,19 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Noto Sans TC", sans-serif, Roboto, sans-serif;
-  line-height: 1.5;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .fz-20 {
   font-size: 20px;
 }
@@ -30,32 +16,18 @@ body {
   font-size: 80px;
 }
 
-.m-8 {
-  margin: 8px;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.m-14 {
-  margin: 14px;
+body {
+  font-family: "Noto Sans TC", sans-serif, Roboto, sans-serif;
+  line-height: 1.5;
 }
 
-.m-24 {
-  margin: 24px;
-}
-
-.m-32 {
-  margin: 32px;
-}
-
-.m-36 {
-  margin: 36px;
-}
-
-.m-48 {
-  margin: 48px;
-}
-
-.m-72 {
-  margin: 72px;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
@@ -171,5 +143,51 @@ body {
 
 .workexp ul li {
   margin-bottom: 24px;
+}
+
+.contact {
+  background-color: #415165;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 24px;
+}
+
+.contact h2.container {
+  border-bottom: 1px solid #FFFFFF;
+  padding: 8px 0;
+}
+
+.contact h2.container span {
+  display: inline-block;
+  position: relative;
+  bottom: 1px;
+}
+
+.contact ul {
+  padding: 32px 0 36px 0;
+}
+
+.contact ul li {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: all 0.2s;
+}
+
+.contact ul li a:hover {
+  color: #96A9C4;
+}
+
+.contact ul li img {
+  margin-right: 24px;
+  transition: all 0.2s;
+}
+
+.contact ul li img:hover {
+  transform: scale(1.2);
 }
 /*# sourceMappingURL=style.css.map */
