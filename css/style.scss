@@ -33,6 +33,9 @@ body {
 }
 
 // font-size
+.fz-20 {
+    font-size: 20px;
+}
 .fz-24 {
     font-size: 24px;
 }
@@ -91,6 +94,7 @@ body {
 .profile {
     h2.container {
         border-bottom: 1px solid #000;
+        
     }
     span {
         display: inline-block;
@@ -152,4 +156,32 @@ body {
             margin-bottom:$m-16;
         }
     }
+}
+
+.workexp {
+    padding: 72px 0 ;
+    h2.container {
+        border-bottom: 1px solid #000;
+        span {
+            display: inline-block;
+            position: relative;
+            color: $strong-title-color ;
+            font-weight: bold;
+            bottom: 3px;
+        }
+    }
+    .workexp-content{
+      padding: 16px 24px;
+
+    }
+    ul {
+        padding-left: 24px;
+        border-left: 1px solid $border-line-color;
+      
+        li{
+            margin-bottom:$m-24;
+
+        }
+    }
+
 }

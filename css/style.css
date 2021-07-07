@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
 }
 
+.fz-20 {
+  font-size: 20px;
+}
+
 .fz-24 {
   font-size: 24px;
 }
@@ -138,5 +142,34 @@ body {
 .skills ul li {
   font-weight: 300;
   margin-bottom: 16px;
+}
+
+.workexp {
+  padding: 72px 0;
+}
+
+.workexp h2.container {
+  border-bottom: 1px solid #000;
+}
+
+.workexp h2.container span {
+  display: inline-block;
+  position: relative;
+  color: #A00404;
+  font-weight: bold;
+  bottom: 3px;
+}
+
+.workexp .workexp-content {
+  padding: 16px 24px;
+}
+
+.workexp ul {
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+
+.workexp ul li {
+  margin-bottom: 24px;
 }
 /*# sourceMappingURL=style.css.map */
