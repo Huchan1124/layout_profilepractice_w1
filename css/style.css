@@ -85,7 +85,58 @@ body {
   margin-bottom: 72px;
 }
 
-.profile ul li {
+.profile ul li:first-child {
   margin-bottom: 24px;
+}
+
+.education h2.container {
+  border-bottom: 1px solid #000;
+}
+
+.education span {
+  display: inline-block;
+  position: relative;
+  color: #A00404;
+  font-weight: bold;
+  bottom: 3px;
+}
+
+.education ul {
+  padding-top: 16px;
+  margin-bottom: 72px;
+}
+
+.education ul li:first-child {
+  margin-bottom: 24px;
+}
+
+.skills {
+  background-color: #415165;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 24px 0 36px 0;
+}
+
+.skills h2 {
+  width: 996px;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 8px 0;
+}
+
+.skills h2 span {
+  display: inline-block;
+  position: relative;
+  bottom: 1px;
+}
+
+.skills ul {
+  margin-top: 36px;
+  width: 236px;
+  border-left: 1px solid #96A9C4;
+}
+
+.skills ul li {
+  font-weight: 300;
+  margin-bottom: 16px;
 }
 /*# sourceMappingURL=style.css.map */
